@@ -5,6 +5,7 @@ services:
         build: 
             context: .
         ports: 
-            - "8080:8080"
+            - "3:8080"
         volumes: 
             - ./docker/jenkins/:/var/jenkins_home
+            - ./scripts:/var/jenkis_scripts

@@ -1,0 +1,2 @@
+#!/bin/bash
+curl http://api-nova.herokuapp.com/public/esqueci/minha/senha/mattbmoller@gmail.com
